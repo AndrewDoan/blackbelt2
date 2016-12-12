@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'ngRoute' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of /Users/Bloot/Desktop/Coding Dojo/Mean Stack/Angular/Assignment 2 Angular Mini Store/package.json
+5 warn package.json Default@ No description
+6 warn package.json Default@ No repository field.
+7 warn package.json Default@ No README data
+8 warn package.json Default@ No license field.
+9 verbose installManyTop reading scoped package data from /Users/Bloot/Desktop/Coding Dojo/Mean Stack/Angular/Assignment 2 Angular Mini Store/node_modules/body-parser/package.json
+10 verbose installManyTop reading scoped package data from /Users/Bloot/Desktop/Coding Dojo/Mean Stack/Angular/Assignment 2 Angular Mini Store/node_modules/ejs/package.json
+11 verbose installManyTop reading scoped package data from /Users/Bloot/Desktop/Coding Dojo/Mean Stack/Angular/Assignment 2 Angular Mini Store/node_modules/express/package.json
+12 verbose installManyTop reading scoped package data from /Users/Bloot/Desktop/Coding Dojo/Mean Stack/Angular/Assignment 2 Angular Mini Store/node_modules/mongoose/package.json
+13 info package.json ejs@1.0.0 No license field.
+14 verbose readDependencies loading dependencies from /Users/Bloot/Desktop/Coding Dojo/Mean Stack/Angular/Assignment 2 Angular Mini Store/package.json
+15 silly cache add args [ 'ngRoute', null ]
+16 verbose cache add spec ngRoute
+17 silly cache add parsed spec { raw: 'ngRoute',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'ngRoute',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: '*',
+17 silly cache add   type: 'range' }
+18 silly addNamed ngRoute@*
+19 verbose addNamed "*" is a valid semver range for ngRoute
+20 silly addNameRange { name: 'ngRoute', range: '*', hasData: false }
+21 silly mapToRegistry name ngRoute
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/ngRoute
+25 verbose addNameRange registry:https://registry.npmjs.org/ngRoute not in flight; fetching
+26 verbose request uri https://registry.npmjs.org/ngRoute
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 7:50:23 PM
+29 verbose request id 4a58a1356f192fff
+30 http request GET https://registry.npmjs.org/ngRoute
+31 http 404 https://registry.npmjs.org/ngRoute
+32 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 verbose headers   'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=0',
+32 verbose headers   'content-length': '51',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Mon, 29 Jun 2015 02:50:23 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   age: '0',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-lax1432-LAX',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1435546222.991384,VS0,VE192' }
+33 silly get cb [ 404,
+33 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 silly get     'content-type': 'application/json',
+33 silly get     'cache-control': 'max-age=0',
+33 silly get     'content-length': '51',
+33 silly get     'accept-ranges': 'bytes',
+33 silly get     date: 'Mon, 29 Jun 2015 02:50:23 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     age: '0',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-lax1432-LAX',
+33 silly get     'x-cache': 'MISS',
+33 silly get     'x-cache-hits': '0',
+33 silly get     'x-timer': 'S1435546222.991384,VS0,VE192' } ]
+34 verbose stack Error: 404 Not Found: ngRoute
+34 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:245:14)
+34 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+34 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:368:22)
+34 verbose stack     at Request.emit (events.js:110:17)
+34 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1219:14)
+34 verbose stack     at Request.emit (events.js:129:20)
+34 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1167:12)
+34 verbose stack     at IncomingMessage.emit (events.js:129:20)
+34 verbose stack     at _stream_readable.js:908:16
+34 verbose stack     at process._tickCallback (node.js:355:11)
+35 verbose statusCode 404
+36 verbose pkgid ngRoute
+37 verbose cwd /Users/Bloot/Desktop/Coding Dojo/Mean Stack/Angular/Assignment 2 Angular Mini Store
+38 error Darwin 14.1.1
+39 error argv "node" "/usr/local/bin/npm" "install" "ngRoute"
+40 error node v0.12.4
+41 error npm  v2.10.1
+42 error code E404
+43 error 404 Not Found: ngRoute
+43 error 404
+43 error 404 'ngRoute' is not in the npm registry.
+43 error 404 You should bug the author to publish it (or use the name yourself!)
+43 error 404 It was specified as a dependency of 'Default'
+43 error 404
+43 error 404 Note that you can also install from a
+43 error 404 tarball, folder, http url, or git url.
+44 verbose exit [ 1, true ]

@@ -1,0 +1,16 @@
+<div ng-controller="appointmentsController">
+	<h1>New Appointment</h1>
+	<form>
+		<label>Date:
+		<input type="date" ng-model="newAppointment.date">
+		<label>Time:
+		<input type="time" ng-model="newAppointment.time">
+		</label>
+		<label>Complain:
+		<textarea ng-model="newAppointment.complain"></textarea>
+		<p ng-bind="err"></p>
+		</label>
+		<a href="#/"><button>Cancel</button></a>
+		<a href=""><input ng-click="addAppointment()" type="submit" value="Add Appointment"></a>
+	</form>
+</div>
